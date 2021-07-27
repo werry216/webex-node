@@ -1,0 +1,27 @@
+{
+  "name": "node-sbot-project",
+  "version": "v2.1.0",
+  "description": "Webex Teams bots in Node.js",
+  "keywords": [
+    "SparkBot",
+    "Webex Teams",
+    "Webhook",
+    "NodeJS",
+    "Express"
+  ],
+  "scripts": {
+    "start": "index.js"
+  },
+  "author": "Werry (Moscow)",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "debug": "^4.1.1",
+    "express": "^4.17.1",
+    "node-sparkbot": "^2.0.0",
+    "node-sparkclient": "^0.1.4",
+    "node-sparky": "^4.6.0",
+    "request": "^2.88.0",
+    "webex": "^1.125.6"
+  }
+}
